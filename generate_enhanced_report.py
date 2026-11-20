@@ -4,7 +4,7 @@ import shutil
 import subprocess
 
 workspace_root = r"D:\IIT Boumby"
-src_path = os.path.join(workspace_root, "OsdagBridge-dev", "src")
+src_path = os.path.join(workspace_root, "src")
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 

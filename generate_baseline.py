@@ -1,7 +1,7 @@
 import sys, os, subprocess, shutil
 
 workspace_root = r'D:\IIT Boumby'
-src_path = os.path.join(workspace_root, 'OsdagBridge-dev', 'src')
+src_path = os.path.join(workspace_root, 'src')
 sys.path.insert(0, src_path)
 
 from osdagbridge.core.bridge_types.plate_girder.defaults import BASIC_INPUT_DICT, solve_extend_basic_input_dict
