@@ -1,0 +1,23 @@
+# Build & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Tectonic local cache & binaries
+localappdata/
+tectonic_bin/
+tectonic_cache/
+bin/
+osdagbridge_dev.zip
+*.log
+*.aux
+*.out
+*.toc
